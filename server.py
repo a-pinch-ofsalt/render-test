@@ -12,7 +12,7 @@ def reverse():
     data = request.json  # assuming JSON data
     print("Received message:", data['text'])  # Log or process the received data
     # You could add logic here to handle the data, then respond accordingly
-    return jsonify({"status": "success", "message": "Message received successfully!"})
+    return jsonify({"status": "success", "message": "Watermelon!"[::-1]})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
