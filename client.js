@@ -1,7 +1,7 @@
 document.querySelector('.send').addEventListener('click', (event) => {
     // Define the message and server URL
     const message = { text: "Hello from the client!" };
-    const serverUrl = 'http://localhost:5000/reverse'; // Replace with your actual server URL
+    const serverUrl = 'https://render-test-racb.onrender.com/reverse'; // Replace with your actual server URL
 
     console.log('Hallo!');
 
